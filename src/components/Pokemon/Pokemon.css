@@ -1,13 +1,14 @@
 .pokemon-card {
     display: flex;
     flex-direction: column;
-    background-color: yellow;
+    background-color: white;
     align-items: center;
-    width: 250px;
+    width: 225px;
     margin: 5px;
     border-radius: 5px;
     flex-shrink: 0;
     flex-grow: 0;
+    box-shadow: 5px 5px 5px darkslategray;
 }
 
 .pokemon-card li {

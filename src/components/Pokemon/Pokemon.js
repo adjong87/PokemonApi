@@ -28,13 +28,13 @@ function Pokemon({pokemon}) {
                     Er ging wat mis!
                     </span>}
             {Object.keys(pokemonData).length > 0 &&
+
                 <div
-                    className="pokemon-card"
-                    key={pokemonData.name}>
-                    <h1>{pokemonData.name}</h1>
+                    className="pokemon-card">
+                    <h2 key={pokemonData.id}>{pokemonData.id} : {pokemonData.species.name}</h2>
                     <img
                         src={pokemonData.sprites.front_default}
-                        alt={pokemonData.name}/>
+                        alt={pokemonData.species.name}/>
                     <p><strong>Moves:</strong> {pokemonData.moves.length}</p>
                     <p><strong>Weight:</strong> {pokemonData.weight}</p>
                     <p><strong>Abilities:</strong>

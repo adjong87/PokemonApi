@@ -1,0 +1,13 @@
+.container {
+    background-color: #ffcb05;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center
+}
+
+.button > button {
+    margin: 100px;
+    padding: 10px;
+}
